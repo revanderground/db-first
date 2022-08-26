@@ -3,14 +3,14 @@ Nome tabella: auto
 id - intero - MEDIUMINT - AUTOINCREMENT
 prezzo - float FLOAT(12,2) - AUTOINCREMENT
 tipo_veicolo - stringa - VARCHAR(30) - NOTNULL
-anno - intero - INT - AUTOINCREMENT - NOTNULL
+anno - intero - INT - NOTNULL
 km_percorsi - float - FLOAT(8,2) - AUTOINCREMENT
 modello - stringa - VARCHAR(30) - NOTNULL
 generazione - intero - TINYINT - AUTOINCREMENT
 serie - stringa - VARCHAR(20) - NULL
 colore - stringa - VARCHAR(10) - NOTNULL
-porte - intero - TINYINT - AUTOINCREMENT - NOTNULL
-posti - intero - TINYINT - AUTOINCREMENT - NOTNULL
+porte - intero - TINYINT - NOTNULL
+posti - intero - TINYINT - NOTNULL
 peso - intero - INT - NOTNULL
 bagagliaio - intero - TINYINT - NULL
 alimentazione - stringa - VARCHAR(15) - NOTNULL
