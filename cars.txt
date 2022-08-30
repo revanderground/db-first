@@ -1,10 +1,10 @@
 Nome tabella: auto
 
-id - intero - MEDIUMINT - AUTOINCREMENT
+id - intero - MEDIUMINT - (NOTNULL, AUTOINCREMENT, INDEX)
 prezzo - float FLOAT(12,2) - NOTNULL
 tipo_veicolo - stringa - VARCHAR(30) - NOTNULL
-anno - intero - INT - NOTNULL
-km_percorsi - float - FLOAT(8,2) - NOTNULL
+anno - YEAR - NOTNULL
+km_percorsi - intero - MEDIUMINT - (unsigned) - NOTNULL
 modello - stringa - VARCHAR(30) - NOTNULL
 generazione - intero - TINYINT - NOTNULL
 serie - stringa - VARCHAR(20) - NULL
